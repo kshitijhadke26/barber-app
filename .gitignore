@@ -1,0 +1,28 @@
+
+---
+
+### **3️⃣ `.gitignore`**
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+
+# Django logs and settings
+*.log
+*.sqlite3
+.env
+.env.example
+
+# Static and media files
+staticfiles/
+media/
+
+# VS Code settings
+.vscode/
+
+# MacOS and Linux system files
+.DS_Store
